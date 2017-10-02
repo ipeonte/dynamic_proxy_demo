@@ -89,6 +89,8 @@ Connect it directly via http://localhost:8082/info
 Navigate on http://localhost:8080/zuul_demo/info
 Check it redirecting requests sequentially on web_client on ports 8081 & 8082
 
+![Web Client #1 via Proxy](https://github.com/ipeonte/DynamicProxyDemo/blob/master/doc/web_client_1_proxy.png)
+
 ![Web Client #2 via Proxy](https://github.com/ipeonte/DynamicProxyDemo/blob/master/doc/web_client_2_proxy.png)
 
 ### Back to Single Web Client
