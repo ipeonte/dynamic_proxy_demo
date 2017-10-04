@@ -1,5 +1,11 @@
 # Dynamic Proxy based on Apache Zuul & Apache Zookeeper
 
+The Component Diagram shown on picture below. The advantage of using Apache Zookeeper vs. standard Netflix OSS stack 
+(Service Registry + Configuration Service) is running single system vs two required for Netflix. Apache Zookeeper used 
+as configuration container as well as service registry.
+
+![Proxy Error](https://github.com/ipeonte/DynamicProxyDemo/blob/master/doc/dynamic_proxy.png)
+
 ## Prerequsties:
 
 Read official guide
