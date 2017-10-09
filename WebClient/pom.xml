@@ -11,28 +11,18 @@
 	<parent>
 		<groupId>com.example.demo</groupId>
 		<artifactId>parent</artifactId>
-		<version>1.0.0.RELEASE</version>
+		<version>1.0.0-RELEASE</version>
 		<relativePath>../</relativePath>
 	</parent>
 
 	<dependencies>
+
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-zookeeper-config</artifactId>
 		</dependency>
-	</dependencies>
 
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>org.springframework.cloud</groupId>
-				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>${spring-cloud.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
+	</dependencies>
 
 	<build>
 		<plugins>
@@ -41,10 +31,10 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		
+
 		<finalName>${project.name}</finalName>
 	</build>
 
 	<description>Web Clent for Zuul Dynamic Proxy Demo</description>
-	
+
 </project>
